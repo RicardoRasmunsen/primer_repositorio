@@ -1,0 +1,101 @@
+body {
+  height: 1400px; }
+
+li {
+  padding: 30px 9px 30px 0px; }
+
+header {
+  background-color: beige;
+  border-right: 1px solid black;
+  border-left: 1px solid black; }
+
+header div {
+  display: flex;
+  justify-content: space-around;
+  border-top: 3px solid black;
+  border-right: 2px solid black;
+  border-bottom: 3px solid black;
+  border-left: 2px solid black; }
+
+header div img {
+  height: 8em;
+  margin: 1em;
+  border: 1px solid black; }
+
+header div h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em; }
+
+header div h2 {
+  font-family: 'Caveat';
+  margin-top: 5em; }
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black; }
+
+header ul li {
+  font-family: 'Limelight', cursive; }
+h1{
+  font-family: "Raleway", sans-serif;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 2em;}
+.navVentas ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #af7cdf;
+  border: solid black;
+  font-family: Verdana, Tahoma, sans-serif;
+  height: 90px;
+  transition: height 1s;
+  margin-bottom: 20px; }
+
+.headerVentas {
+  background-color: cornsilk; }
+
+.parrafo3 {
+  font-family: Verdana, Tahoma, sans-serif; }
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  height: 4em;
+  background-color: #edff9d;
+  padding: 1.5em;
+  border: 1px solid black; }
+
+footer h2 {
+  font-family: Verdana;
+  font-size: 2em; }
+
+footer .button {
+  display: inline-block;
+  height: 4em;
+  width: 8em;
+  border-radius: 3em;
+  padding: 0.5em 1.5em;
+  border: 1px solid black;
+  background-image: linear-gradient(#EEE, #e74747); }
+
+footer .button img {
+  height: 3em;
+  width: 3em; }
+
+footer .button .face {
+  height: 3em;
+  width: 6em; }
+
+footer .button--state-success {
+  color: #FFF;
+  background: #569E3D linear-gradient(#79D858, #a5b4a0) repeat-x;
+  border: 1px solid black; }
+
+footer .button--state-danger {
+  color: #900;
+  border: 1px solid black; }

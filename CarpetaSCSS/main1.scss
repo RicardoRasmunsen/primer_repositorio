@@ -1,0 +1,104 @@
+@import "main";
+
+header{
+    background-color: beige;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    div{
+        display: flex;
+        justify-content: space-around;
+        border-top: 3px solid black;
+        border-right: 2px solid black;
+        border-bottom: 3px solid black;
+        border-left: 2px solid black;
+           img{
+            height: 8em;
+            margin: 1em;
+            border: 1px solid black; 
+        }    
+        h1{
+            font-family: 'Dancing Script', cursive;
+            font-size: 3em            
+        }
+        h2{
+            font-family: 'Caveat';
+            margin-top: 5em;
+        }  
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style: none;
+        border-top: 1px solid black;        
+        border-bottom: 1px solid black;
+            li{                
+                font-family: 'Limelight', cursive;
+            }
+    }
+}
+
+.tendencias{
+    margin: 1em;
+    padding: 1em;
+    background-color: rgb(212, 105, 63);   
+    border: 2px solid black; 
+    
+    
+        p{
+            margin: 0,1em;                          
+            font-size: 3em;
+            font-family: Verdana;
+            margin-left: 1em;
+            color: white;
+}    
+}
+main{
+    border: 1px solid black;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 4em;
+    background-color: rgb(237, 255, 157);
+    padding: 1.5em;
+    border: 1px solid black;    
+        h2{
+            font-family: Verdana;
+            font-size: 2em;
+        }
+       
+        .button {
+            display: inline-block;
+            height: 4em;
+            width: 8em;
+            border-radius: 3em;
+            padding: 0.5em 1.5em;
+            border: 1px solid black;
+            background-image: linear-gradient(#EEE, rgb(231, 71, 71));
+                img{
+                    height: 3em;
+                    width: 3em;
+                }
+                .face{
+                    height: 3em;
+                    width: 6em;
+                }
+        }
+        .button--state-success {
+            color: #FFF;
+            background: #569E3D linear-gradient(#79D858, #a5b4a0) repeat-x;
+            border: 1px solid black;
+        }
+        .button--state-danger {	
+            color: #900;
+            border: 1px solid black;
+        }
+       
+}
+
+
+

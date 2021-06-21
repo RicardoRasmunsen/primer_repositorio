@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #f6f6fe;
+  font-family: "Open Sans", sans-serif; }
+
+.encabezado {
+  background-color: beige;
+  border-radius: 10px;
+  border-right: 1px solid black;
+  border-left: 1px solid black; }
+
+.encabezado div {
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  border-top: 3px solid black;
+  border-right: 2px solid black;
+  border-bottom: 3px solid black;
+  border-left: 2px solid black; }
+
+.encabezado div img {
+  height: 8em;
+  margin: 1em; }
+
+.encabezado div h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 3em; }
+
+.encabezado div h2 {
+  font-family: 'Caveat';
+  margin-top: 5em; }
+
+.encabezado ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+  border-radius: 10px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black; }
+
+.encabezado ul li {
+  font-family: 'Limelight', cursive; }
+h1{
+  font-family: "Raleway", sans-serif;
+  margin-top: 2em;
+  margin-left: 2em;}
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+.contenedor {
+  max-width: 1000px;
+  width: 90%;
+  margin: 0 auto; }
+
+.contenedor__cards {
+  margin: 70px 0; }
+
+.card {
+  background-color: #f3caca;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 50px; }
+
+.card__thumbnail {
+  width: 650px;
+  height: 200px;
+  margin-right: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: inline-block; }
+
+.card__img {
+  width: 100%;
+  height: 12em; }
+
+.card__titulo {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 20px; }
+
+.card__enlace {
+  color: #000; }
+
+.card__extracto {
+  line-height: 28px;
+  color: #6d6d6d;
+  margin-bottom: 20px; }
+
+.boton {
+  border: none;
+  min-width: 180px;
+  height: 50px;
+  padding: 0 30px;
+  background: #000;
+  color: #7e3c3c;
+  display: inline-block;
+  border-radius: 20px;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #aeacf3;
+  transition: 0.3s ease all; }
+
+.boton:hover {
+  background: #dbdaee;
+  text-decoration: none; }
+
+.boton--absolute {
+  position: absolute;
+  right: 20px;
+  bottom: 25px; }
+
+.boton--verde {
+  background: #7ba771; }
+
+.boton--verde:hover {
+  background: #cae6c4; }
+
+.frase {
+  text-align: center;
+  margin: 70px 0; }
+
+.frase__texto {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-style: italic; }
+
+footer .contenedor {
+  height: 340px;
+  width: auto;
+  margin: 0px auto;
+  border-radius: 5px;
+  background-color: #bff0df; }
+
+footer .contenedor .contenedor__auxiliar .auxiliar {
+  position: relative; }
+
+footer .contenedor .contenedor__auxiliar .auxiliar p {
+  display: inline;
+  position: absolute;
+  margin: 3em 1em;
+  padding: 1em 1em;
+  font-family: Verdana, Tahoma, sans-serif;
+  font-size: 3em;
+  border-radius: 5px;
+  border: 6px solid #d7f8d3; }
+
+footer .contenedor .contenedor__auxiliar .auxiliar a {
+  text-decoration: none; }
+
+footer .contenedor .contenedor__auxiliar .auxiliar a .img1 {
+  height: 4em; }
+
+footer .contenedor .contenedor__auxiliar .auxiliar a .img2 {
+  height: 2.5em; }
+
+footer .contenedor .contenedor__auxiliar .auxiliar a .img3 {
+  height: 2.5em; }
+
+footer .contenedor .contenedor__auxiliar .auxiliar .boton {
+  border: 2px solid grey;
+  min-width: 180px;
+  height: 50px;
+  padding: 0 30px;
+  color: #637ae2;
+  border-radius: 100px;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #eff0f3;
+  transition: 0.3s ease all; }
+
+footer .contenedor .contenedor__auxiliar .auxiliar .boton:hover {
+  background: #fdbfab;
+  text-decoration: none; }
+
+footer .contenedor .contenedor__auxiliar .auxiliar .boton--absolute {
+  position: absolute;
+  right: 20px;
+  bottom: -120px; }
+
+footer .contenedor .contenedor__auxiliar .auxiliar .boton--absolutedos {
+  position: absolute;
+  right: 20px;
+  bottom: -220px; }
+
+footer .contenedor .contenedor__auxiliar .auxiliar .boton--absolutetres {
+  position: absolute;
+  right: 20px;
+  bottom: -320px; }
